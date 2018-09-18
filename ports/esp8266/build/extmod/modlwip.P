@@ -1,0 +1,142 @@
+build/extmod/modlwip.o: ../../extmod/modlwip.c \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/string.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/newlib.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/config.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/ieeefp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/features.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/xtensa/config/core-isa.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/reent.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_default_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/lock.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stddef.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/cdefs.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/string.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdio.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdarg.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/stdio.h \
+ ../../py/objlist.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdint.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdint.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/alloca.h \
+ ../../py/misc.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdbool.h \
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
+ ../../py/runtime0.h ../../py/runtime.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/limits.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/syslimits.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/limits.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/assert.h \
+ ../../py/objexcept.h ../../py/objtuple.h ../../py/pystack.h \
+ ../../py/stream.h ../../py/mperrno.h ../../py/mphal.h esp_mphal.h \
+ ../../py/ringbuf.h ../../lib/utils/interrupt_char.h xtirq.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/osapi.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/os_type.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/ets_sys.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/c_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/eagle_soc.h \
+ user_config.h etshal.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/os_type.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/gpio.h \
+ modmachine.h ../../lib/netutils/netutils.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/init.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/opt.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwipopts.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/debug.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/arch.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/arch/cc.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/c_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/ets_sys.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/tcp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/sys.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/eagle_soc.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/mem.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/pbuf.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/err.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/ip.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/def.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/ip_addr.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/netif.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/icmp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/udp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/dns.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/igmp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/timers.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/tcp_impl.h
+../../extmod/modlwip.c :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/string.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/newlib.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/config.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/ieeefp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/features.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/xtensa/config/core-isa.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/reent.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_default_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/lock.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stddef.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/cdefs.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/string.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdio.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdarg.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/stdio.h :
+ ../../py/objlist.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdint.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdint.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/alloca.h :
+ ../../py/misc.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdbool.h :
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
+ ../../py/runtime0.h ../../py/runtime.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/limits.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/syslimits.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/limits.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/assert.h :
+ ../../py/objexcept.h ../../py/objtuple.h ../../py/pystack.h :
+ ../../py/stream.h ../../py/mperrno.h ../../py/mphal.h esp_mphal.h :
+ ../../py/ringbuf.h ../../lib/utils/interrupt_char.h xtirq.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/osapi.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/os_type.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/ets_sys.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/c_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/eagle_soc.h :
+ user_config.h etshal.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/os_type.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/gpio.h :
+ modmachine.h ../../lib/netutils/netutils.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/init.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/opt.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwipopts.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/debug.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/arch.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/arch/cc.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/c_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/ets_sys.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/tcp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/sys.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/eagle_soc.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/mem.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/pbuf.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/err.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/ip.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/def.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/ip_addr.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/netif.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/icmp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/udp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/dns.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/igmp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/timers.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/include/lwip/tcp_impl.h :

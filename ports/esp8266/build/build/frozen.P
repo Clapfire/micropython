@@ -1,0 +1,18 @@
+build/build/frozen.o: build/frozen.c \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdint.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdint.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/newlib.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/config.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/ieeefp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/features.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/xtensa/config/core-isa.h
+build/frozen.c :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdint.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdint.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/newlib.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/config.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/ieeefp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/features.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/xtensa/config/core-isa.h :

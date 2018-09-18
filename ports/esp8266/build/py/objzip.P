@@ -1,0 +1,64 @@
+build/py/objzip.o: ../../py/objzip.c \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdlib.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/ieeefp.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/newlib.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/config.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/features.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/xtensa/config/core-isa.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stddef.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/reent.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_default_types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/lock.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/stdlib.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/alloca.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/assert.h \
+ ../../py/objtuple.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdint.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdint.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/types.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/types.h \
+ ../../py/misc.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdbool.h \
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
+ ../../py/runtime0.h ../../py/runtime.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/limits.h \
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/syslimits.h \
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/limits.h \
+ ../../py/objlist.h ../../py/objexcept.h ../../py/pystack.h
+../../py/objzip.c :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdlib.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/ieeefp.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/newlib.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/config.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/features.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/xtensa/config/core-isa.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stddef.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/reent.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/_ansi.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/_default_types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/lock.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/stdlib.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/alloca.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/assert.h :
+ ../../py/objtuple.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdint.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/stdint.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/types.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/machine/types.h :
+ ../../py/misc.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include/stdbool.h :
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
+ ../../py/runtime0.h ../../py/runtime.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/limits.h :
+ /tools/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/include-fixed/syslimits.h :
+ /tools/xtensa-lx106-elf/xtensa-lx106-elf/include/limits.h :
+ ../../py/objlist.h ../../py/objexcept.h ../../py/pystack.h :
